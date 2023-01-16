@@ -9,19 +9,19 @@ How to start gripper and arm control
 Before starting code, a few checks and preparations are needed:
 
 * **Pressure check:** Check all pressure gauges (two on smart arm base and one on avatar side) to see if they are 60 psi. 
-If below 60 psi, use a hand air pump to increase to 60 psi.
+  If below 60 psi, use a hand air pump to increase to 60 psi.
 
 * **Actuator range check:** Check range of motions for each actuator to decide if water is needed to add into hose. If an actuator 
-is far from its end stop. Please refer to how to bleed the system.
+  is far from its end stop. Please refer to how to bleed the system.
 
 * **Motor drives power check:** Check all motor drives if they show green light. For a smarty arm setup, need to release 
-emergency stop and put a makita battery, then turn on switch to "auto". For avatar side, turn on switch labeled as "NUC".
+  emergency stop and put a makita battery, then turn on switch to "auto". For avatar side, turn on switch labeled as "NUC".
 
 * **Panda arm preperation:** Turn on panda arm. A blink yellow light means it's turning on and a constant yellow light means 
-it's ready. Open a web browser from local or remote and type "192.168.1.100" and "192.168.1.101" to get access to franka 
-interface. Then, turn off brakes by clicking an "unlock" button, a blue or white light verifies the arm is unlocked. Next, 
-go to upright part and click "activate FCI" button. Finally, rotate the "left panda" and "right panda" switches located below 
-the front display to make the light turn white.
+  it's ready. Open a web browser from local or remote and type "192.168.1.100" and "192.168.1.101" to get access to franka 
+  interface. Then, turn off brakes by clicking an "unlock" button, a blue or white light verifies the arm is unlocked. Next, 
+  go to upright part and click "activate FCI" button. Finally, rotate the "left panda" and "right panda" switches located below 
+  the front display to make the light turn white.
 
 Once all checks and preparation are ready, it's time to start control code. First open a termiantor window on xnuc2 and split 
 it into eight sub windows, type "xnuc0" for all to get access to xnuc0 on avatar side. Then type the following commands:
