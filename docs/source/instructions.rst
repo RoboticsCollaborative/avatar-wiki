@@ -27,7 +27,7 @@ Once all checks and preparation are ready, it's time to start control code. Firs
 it into eight sub windows, type "xnuc0" for all to get access to xnuc0 on avatar side. Then type the following commands:
 
 .. list-table:: avatar_command
-   :width: 50 50
+   :widths: 50 50
 
    * - lp
      - rp
@@ -47,7 +47,7 @@ need to be fully opened and smarty arms need to put into the position shown belo
 Then, open another terminator window on xnuc2, split it into eight subwindows, and type the following commands:
 
 .. list-table:: operator_command
-   :width: 50 50
+   :widths: 50 50
 
    * - lsa
      - rsa
