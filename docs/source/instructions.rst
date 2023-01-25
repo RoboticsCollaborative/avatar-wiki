@@ -99,7 +99,7 @@ If roscore hasn't been run yet, in any of the opened terminal window, ssh into x
 The program will start listening to the main camera feed, once you started the sender, the main camera view will show up 
 automatically.  
 If you encountered an error saying *cannot connect to ROS master*, that means the ROS core is not started yet.
-Please refer to :ref:`control-instructions`.
+Please refer to step 2.
 
 **Operator camera:** In terminal 3, start operator view sender by running
 
