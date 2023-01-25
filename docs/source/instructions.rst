@@ -47,6 +47,7 @@ need to be fully opened and smarty arms need to put into the position shown belo
 Here is an example of the initial pose of the (left) smarty arm:
 
 .. image:: img/smart-arm-initial-pose.jpeg
+  :width: 800
 
 Then, open another terminator window on xnuc2, split it into eight subwindows, and type the following commands:
 
