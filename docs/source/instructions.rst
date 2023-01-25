@@ -41,8 +41,12 @@ it into eight sub windows, type "xnuc0" for all to get access to xnuc0 on avatar
 If roscore is already running, ignore it here. The first row means left and right panda arm control; the second row means left 
 right gripper control code; the third row means left and right gripper interface. Remember to start control before interface.
 
-Now, it's time for operator side. Both smarty arms and gloves need to put into homing position when starting the code. Gloves 
+Now, it's time for operator side. Both smarty arms and gloves need to put into initial pose when starting the code. Gloves 
 need to be fully opened and smarty arms need to put into the position shown below.
+
+Here is an example of the initial pose of the (left) smarty arm:
+
+.. image:: img/smart-arm-initial-pose.jpeg
 
 Then, open another terminator window on xnuc2, split it into eight subwindows, and type the following commands:
 
