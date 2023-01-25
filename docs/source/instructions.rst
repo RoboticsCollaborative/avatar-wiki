@@ -65,39 +65,6 @@ The gloves and grippers teleoperation is ready. An operator is ready to wear bot
 the "left panda" and "right panda" on avatar side to turn the arms into blue light. Panda arms will slowly catch operator's smarty arm 
 position and is ready when operator can feel force from smarty arm.
 
-.. _video-instructions-avatar:
-
-How to start the video (avatar side)
-------------------------------------
-Open the terminal with predefined layout, this will pop up a terminal with 6 panels, it doesn't matter which terminal you 
-run the following commands, only the order matters:
-
-.. code-block:: console
-
-   $ terminator -l avatar
-
-**Main Camera:** In terminal 1, start main camera sender by running
-
-.. code-block:: console
-
-   $ send_main
-
-**Peripheral Camera:** In terminal 2, start peripheral camera sender by running
-
-.. code-block:: console
-
-   $ send_left
-
-**Operator Camera:** We use :code:`obs` to receive operator view (due to my code not able to receive cropped 
-video properly somehow..). In terminal 3, run 
-
-.. code-block:: console
-
-   $ obs
-
-In obs you should be able to see only one source, right click and select **project to fullscreen**.
-**(Add a picture or gif here)**. You might adjust the webcam on top of the camera to center the operator face.
-
 .. _video-instructions-operator:
 
 How to start the video (operator side)
@@ -109,6 +76,13 @@ run the following commands, only the order matters:
 .. code-block:: console
 
    $ terminator -l avatar
+   
+If roscore hasn't been run yet, in any of the opened terminal window, ssh into xnuc0 and then start roscore:
+
+.. code-block:: console
+    
+   $ xnuc0 
+   $ roscore
 
 **Discovery center:** In terminal 1, start discovery by running 
 
@@ -142,6 +116,41 @@ First open :code:`obs` in terminal 4 by running
 
 If you have followed :ref:`video-instructions-avatar`, you should be able to see the wide angle camera view. Right click it and
 project it onto the Sumsung monitor. **(Add a picture or gif here)**
+
+.. _video-instructions-avatar:
+
+How to start the video (avatar side)
+------------------------------------
+Open the terminal with predefined layout, this will pop up a terminal with 6 panels, it doesn't matter which terminal you 
+run the following commands, only the order matters:
+
+.. code-block:: console
+
+   $ terminator -l avatar
+
+**Main Camera:** In terminal 1, start main camera sender by running
+
+.. code-block:: console
+
+   $ send_main
+
+**Peripheral Camera:** In terminal 2, start peripheral camera sender by running
+
+.. code-block:: console
+
+   $ send_left
+
+**Operator Camera:** We use :code:`obs` to receive operator view (due to my code not able to receive cropped 
+video properly somehow..). In terminal 3, run 
+
+.. code-block:: console
+
+   $ obs
+
+In obs you should be able to see only one source, right click and select **project to fullscreen**.
+**(Add a picture or gif here)**. You might adjust the webcam on top of the camera to center the operator face.
+
+
 
 .. _audio-instructions-avatar:
 
