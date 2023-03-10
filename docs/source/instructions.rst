@@ -126,6 +126,7 @@ project it onto the Sumsung monitor. **(Add a picture or gif here)**
 
 How to start the video (avatar side)
 ------------------------------------
+Use NoMachine to log into the remote video NUC (avatar_bd).
 Open the terminal with predefined layout, this will pop up a terminal with 6 panels, it doesn't matter which terminal you 
 run the following commands, only the order matters:
 
