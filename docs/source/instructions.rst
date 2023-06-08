@@ -22,6 +22,22 @@ Before starting code, a few checks and preparations are needed:
   interface. Then, turn off brakes by clicking an "unlock" button, a blue or white light verifies the arm is unlocked. Next, 
   go to upright part and click "activate FCI" button. Finally, rotate the "left panda" and "right panda" switches located below 
   the front display to make the light turn white.
+  
+* **Alternative method to start Panda (Recommended)**: On xnuc2 machine, open two ssh sessions to xnuc0 by running ``xnuc0`` in each terminal.
+  
+In the first session, run the following code to start left panda:
+
+.. code-block:: console
+
+   $ lfranka
+   
+In the second session, run the following code to start left panda:
+  
+.. code-block:: console
+
+   $ rfranka
+
+You should now hear the "clicking" sound from the release of the Panda gear. 
 
 Once all checks and preparation are ready, it's time to start control code. First open a termiantor window on xnuc2 and split 
 it into eight sub windows, type "xnuc0" for all to get access to xnuc0 on avatar side. Then type the following commands:
