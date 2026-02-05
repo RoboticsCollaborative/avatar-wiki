@@ -73,11 +73,13 @@ the "left panda" and "right panda" on avatar side (or the foot padels if connect
 position and is ready when operator can feel force from smarty arm.
 
 To start both Proteus gripper, run:
+
 .. code-block:: console
 
    $ proteus
 
 You can also start left and right proteus gripper separately by running:
+
 .. code-block:: console
 
    $ lproteus
